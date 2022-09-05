@@ -12,5 +12,5 @@ let body        = document.querySelector("body");
 //#######################
 
 inputs.addEventListener("keypress", (e) => {
-
+    if(e.key === "Enter") {}
 });
