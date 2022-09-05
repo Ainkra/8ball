@@ -11,3 +11,10 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+body {
+    min-height: 100vh;
+    font-family: Lato, Helvetica, sans-serif;
+    background: linear-gradient(to right, #3600c9, #080808);
+    padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
