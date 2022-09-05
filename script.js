@@ -33,5 +33,14 @@ inputs.addEventListener("keypress", (e) => {
                 body.style.background = "linear-gradient(to right, #ffd000, #c95a00)" 
                 break;
         }
+
+//#######################
+//  EASTER EGGS EXAMPLE
+//#######################
+        switch(inputs.value) {
+            case "je suis ton père":
+                answer.textContent = "NOOOOOOOO";
+                break;
+        }
     }
 });
