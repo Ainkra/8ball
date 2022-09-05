@@ -6,6 +6,7 @@ const questions = document.querySelector(".questions");
 const inputs    = document.querySelector("input");
 let answer      = document.querySelector(".answer");
 let body        = document.querySelector("body");
+let value       = document.querySelector("input").value
 
 //#######################
 //      FUNCTION
@@ -41,6 +42,12 @@ inputs.addEventListener("keypress", (e) => {
             case "je suis ton père":
                 answer.textContent = "NOOOOOOOO";
                 break;
+
+            case "":
+                answer.textContent = "J'attends !";
+                body.style.background = "linear-gradient(to right, #3600c9, #080808)"
+                break;
         }
+
     }
 });
